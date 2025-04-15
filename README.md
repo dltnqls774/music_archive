@@ -5,7 +5,7 @@
 https://dltnqls774.github.io/music_archive/
 
 ### 사이트 구성
-- 구글을 통한 로그인
+- 구글 ID를 통한 로그인
 - 앨범 등록 화면
 - 앨범 조회 화면
 - 앨범 클릭 시 상세조회 화면
