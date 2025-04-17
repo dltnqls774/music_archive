@@ -88,7 +88,7 @@ export default function ProductDetail() {
                 </div>
             </div>
 
-            <div className="h-auto mt-10">
+            <div className="h-auto mt-10 cursor-pointer">
                 {songList.map((songName, sindex) => (
                     <div onClick={() => openPopup('songList',songName)} key={sindex} className="flex justify-between h-14 bg-brand text-white p-4 mt-3 rounded">
                         <div className="flex items-center gap-2">

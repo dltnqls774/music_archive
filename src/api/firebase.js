@@ -73,7 +73,11 @@ async function adminUser(user) {
         if(snapshot.exists()) {
             const admins = snapshot.val();
             const isAdmin = admins.includes(user.uid);
-            return {...user, isAdmin}
+            
+            // 테스트용
+            return {...user, isAdmin : true}
+            // return {...user, isAdmin}
+
         }
 
         return user;
